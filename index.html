@@ -1,18 +1,71 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>jQuery placeholder</title>
-    <link rel="stylesheet" href="node_modules/material-icons/iconfont/material-icons.css">
-    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="node_modules/material-icons/iconfont/material-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/materialize-css/dist/css/materialize.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/css/theme.css" />
+  </head>
 
-<body>
-
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">Faire des trucs</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="card-center col s6 card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">
+              Card Title<i class="material-icons right">more_vert</i>
+            </span>
+            <p><a href="#">This is a link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">
+              Card Title<i class="material-icons right">close</i>
+            </span>
+            <p>
+              Here is some more information about this product that is only
+              revealed once clicked on.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col m6">
+          </div>
+          <div class="col m6">
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2018 Copyright Jonathan Germain
+          <a
+            class="grey-text text-lighten-4 right"
+            href="https://github.com/Germainjonathan"
+            >Github</a
+          >
+        </div>
+      </div>
+    </footer>
     <script src="./app.js"></script>
-</body>
-
+  </body>
 </html>
