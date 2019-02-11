@@ -29,24 +29,42 @@
             <img class="activator" />
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">
-              Card Title<i class="material-icons right">more_vert</i>
+            <span class="h2 card-title activator grey-text text-darken-4">
+              <i class="material-icons right">more_vert</i>
             </span>
-            <p><a href="#">This is a link</a></p>
+            <hr>
+            <div class="description">
+              <p class="id"><span class="label">Id : </span></p>
+              <p class="username"><span class="label">Username : </span></p>
+              <p class="email"><span class="label">Email : </span></p>
+              <p class="phone"><span class="label">Phone : </span></p>
+              <p class="website"><span class="label">Website : </span></p>
+            </div>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">
-              Card Title<i class="material-icons right">close</i>
+              <i class="material-icons right">close</i>
             </span>
-            <p>
-              Here is some more information about this product that is only
-              revealed once clicked on.
-            </p>
+            <div class="card-tabs">
+              <ul class="tabs tabs-fixed-width">
+                <li class="tab"><a class="active" href="#address">Adress</a></li>
+                <li class="tab"><a href="#company">Company</a></li>
+              </ul>
+            </div>
+            <div class="card-content grey lighten-4">
+              <div id="address">
+                <p><a class="city link" href="http://www.google.com/maps/place/"></a></p>
+                <p class="street"></p>
+                <p class="suite"></p>
+                <p class="zipcode"></p>
+              </div>
+              <div id="company">Company</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <footer class="page-footer">
+    <footer class="color-footer page-footer">
       <div class="container">
         <div class="row">
           <div class="col m6">
@@ -57,7 +75,7 @@
       </div>
       <div class="footer-copyright">
         <div class="container">
-          © 2018 Copyright Jonathan Germain
+          © 2019 Copyright Jonathan Germain
           <a
             class="grey-text text-lighten-4 right"
             href="https://github.com/Germainjonathan"
